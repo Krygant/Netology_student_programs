@@ -21,6 +21,7 @@ public class Main {
     }
 
     //Вот еще один комментарий
+    //И ещё один коммент
     public static int daysPerYear(int year) {
         int days;
         if (year % 400 == 0) {
