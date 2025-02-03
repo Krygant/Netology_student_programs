@@ -19,13 +19,15 @@ public class Main {
         }
 
     }
-    public static int daysPerYear(int year){
-        int  days;
+
+    //Вот еще один комментарий
+    public static int daysPerYear(int year) {
+        int days;
         if (year % 400 == 0) {
             days = 366;
         } else if (year % 100 == 0) {
             days = 365;
-        } else  if (year % 4 == 0) {
+        } else if (year % 4 == 0) {
             days = 366;
         } else {
             days = 365;
